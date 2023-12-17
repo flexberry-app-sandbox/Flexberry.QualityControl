@@ -37,6 +37,8 @@ namespace IIS.QualityControl
     public class Проверяемое : ICSSoft.STORMNET.DataObject
     {
         
+        private int fКоличество;
+        
         private IIS.QualityControl.tКачество fКачество;
         
         private IIS.QualityControl.Продукция fПродукция;
@@ -76,6 +78,37 @@ namespace IIS.QualityControl
                 // *** Start programmer edit section *** (Проверяемое.Качество Set end)
 
                 // *** End programmer edit section *** (Проверяемое.Качество Set end)
+            }
+        }
+        
+        /// <summary>
+        /// Количество.
+        /// </summary>
+        // *** Start programmer edit section *** (Проверяемое.Количество CustomAttributes)
+
+        // *** End programmer edit section *** (Проверяемое.Количество CustomAttributes)
+        public virtual int Количество
+        {
+            get
+            {
+                // *** Start programmer edit section *** (Проверяемое.Количество Get start)
+
+                // *** End programmer edit section *** (Проверяемое.Количество Get start)
+                int result = this.fКоличество;
+                // *** Start programmer edit section *** (Проверяемое.Количество Get end)
+
+                // *** End programmer edit section *** (Проверяемое.Количество Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (Проверяемое.Количество Set start)
+
+                // *** End programmer edit section *** (Проверяемое.Количество Set start)
+                this.fКоличество = value;
+                // *** Start programmer edit section *** (Проверяемое.Количество Set end)
+
+                // *** End programmer edit section *** (Проверяемое.Количество Set end)
             }
         }
         

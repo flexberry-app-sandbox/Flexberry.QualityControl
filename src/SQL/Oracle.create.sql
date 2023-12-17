@@ -44,6 +44,8 @@ CREATE TABLE "Проверяемое"
 
 	"primaryKey" RAW(16) NOT NULL,
 
+	"Количество" NUMBER(10) NULL,
+
 	"Качество" NVARCHAR2(5) NULL,
 
 	"Продукция" RAW(16) NOT NULL,

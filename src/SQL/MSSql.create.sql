@@ -39,6 +39,8 @@ CREATE TABLE [Проверяемое] (
 
 	 [Качество] VARCHAR(5)  NULL,
 
+	 [Количество] INT  NULL,
+
 	 [Продукция] UNIQUEIDENTIFIER  NOT NULL,
 
 	 [Отчет] UNIQUEIDENTIFIER  NOT NULL,

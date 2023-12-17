@@ -2,7 +2,7 @@
   "nameSpace": "IIS.QualityControl",
   "className": "tКачество",
   "enumObjects": {
-    "Годен": "",
-    "Брак": ""
+    "Годен": "Годен",
+    "Брак": "Брак"
   }
 }

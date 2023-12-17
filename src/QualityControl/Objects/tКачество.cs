@@ -12,6 +12,7 @@ namespace IIS.QualityControl
 {
     using System;
     using System.Xml;
+    using ICSSoft.STORMNET;
     
     
     // *** Start programmer edit section *** (Using statements)
@@ -28,14 +29,22 @@ namespace IIS.QualityControl
     public enum tКачество
     {
         
+        /// <summary>
+        /// Годен.
+        /// </summary>
         // *** Start programmer edit section *** (tКачество.Годен CustomAttributes)
 
         // *** End programmer edit section *** (tКачество.Годен CustomAttributes)
+        [Caption("Годен")]
         Годен,
         
+        /// <summary>
+        /// Брак.
+        /// </summary>
         // *** Start programmer edit section *** (tКачество.Брак CustomAttributes)
 
         // *** End programmer edit section *** (tКачество.Брак CustomAttributes)
+        [Caption("Брак")]
         Брак,
     }
 }

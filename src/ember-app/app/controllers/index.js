@@ -22,31 +22,30 @@ export default Controller.extend({
             link: 'i-i-s-quality-control-оборудование-l',
             caption: i18n.t('forms.application.sitemap.контроль-качества.i-i-s-quality-control-оборудование-l.caption'),
             title: i18n.t('forms.application.sitemap.контроль-качества.i-i-s-quality-control-оборудование-l.title'),
-            icon: 'table',
+            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-quality-control-должность-l',
             caption: i18n.t('forms.application.sitemap.контроль-качества.i-i-s-quality-control-должность-l.caption'),
             title: i18n.t('forms.application.sitemap.контроль-качества.i-i-s-quality-control-должность-l.title'),
-            icon: 'building',
             children: null
           }, {
             link: 'i-i-s-quality-control-продукция-l',
             caption: i18n.t('forms.application.sitemap.контроль-качества.i-i-s-quality-control-продукция-l.caption'),
             title: i18n.t('forms.application.sitemap.контроль-качества.i-i-s-quality-control-продукция-l.title'),
-            icon: 'building',
+            icon: 'chart bar',
             children: null
           }, {
             link: 'i-i-s-quality-control-отчет-l',
             caption: i18n.t('forms.application.sitemap.контроль-качества.i-i-s-quality-control-отчет-l.caption'),
             title: i18n.t('forms.application.sitemap.контроль-качества.i-i-s-quality-control-отчет-l.title'),
-            icon: 'building',
+            icon: 'archive',
             children: null
           }, {
             link: 'i-i-s-quality-control-сотрудник-l',
             caption: i18n.t('forms.application.sitemap.контроль-качества.i-i-s-quality-control-сотрудник-l.caption'),
             title: i18n.t('forms.application.sitemap.контроль-качества.i-i-s-quality-control-сотрудник-l.title'),
-            icon: 'list',
+            icon: 'tasks',
             children: null
           }]
         }

@@ -22,6 +22,9 @@ public class Proveryaemoe {
     @Column(name = "primarykey", length = 16, unique = true, nullable = false)
     private UUID primarykey;
 
+    @Column(name = "Количество")
+    private Integer количество;
+
     @Column(name = "Качество")
     private String качество;
 
@@ -56,6 +59,14 @@ public class Proveryaemoe {
 
     public UUID getPrimarykey() {
         return primarykey;
+    }
+
+    public Integer getКоличество() {
+      return количество;
+    }
+
+    public void setКоличество(Integer количество) {
+      this.количество = количество;
     }
 
     public String getКачество() {

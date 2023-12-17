@@ -25,6 +25,7 @@ CREATE TABLE Продукция (
 
 CREATE TABLE Проверяемое (
  primaryKey UUID NOT NULL,
+ Количество INT NULL,
  Качество VARCHAR(5) NULL,
  Продукция UUID NOT NULL,
  Отчет UUID NOT NULL,
