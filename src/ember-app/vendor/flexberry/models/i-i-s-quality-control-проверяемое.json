@@ -1,0 +1,77 @@
+﻿{
+  "name": "IISQualityControlПроверяемое",
+  "modelName": "i-i-s-quality-control-проверяемое",
+  "className": "Проверяемое",
+  "nameSpace": "IIS.QualityControl",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "качество",
+      "type": "i-i-s-quality-control-t-качество",
+      "flexberryType": "tКачество",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "продукция",
+      "relatedTo": "i-i-s-quality-control-продукция",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "отчет",
+      "relatedTo": "i-i-s-quality-control-отчет",
+      "inverse": "проверяемое"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ПроверяемоеE",
+      "modelName": "i-i-s-quality-control-проверяемое",
+      "attrs": [
+        {
+          "name": "качество",
+          "caption": "Качество",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Название",
+          "lookupValueField": "название",
+          "relationName": "Продукция",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "название",
+              "caption": "Название",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Продукция",
+          "name": "продукция",
+          "relatedTo": "i-i-s-quality-control-продукция",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

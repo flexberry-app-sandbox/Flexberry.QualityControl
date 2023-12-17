@@ -1,0 +1,39 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Оборудование",
+      "projection": "ОборудованиеL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Ответственный",
+      "projection": "СотрудникL",
+      "detailModelName": null
+    },
+    {
+      "master": "продукция",
+      "displayAttributeName": "название",
+      "required": true,
+      "relationName": "Проверяемое.Продукция",
+      "projection": "ПродукцияL",
+      "detailModelName": "i-i-s-quality-control-проверяемое"
+    }
+  ],
+  "external": false,
+  "caption": "Отчет",
+  "name": "IISQualityControlОтчетE",
+  "className": "ОтчетE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-quality-control-отчет",
+      "modelProjection": "ОтчетE"
+    }
+  ]
+}

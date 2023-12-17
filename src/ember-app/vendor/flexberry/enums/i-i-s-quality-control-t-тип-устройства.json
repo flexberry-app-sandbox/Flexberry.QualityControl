@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.QualityControl",
+  "className": "tТипУстройства",
+  "enumObjects": {
+    "Поляризирующее": "",
+    "Герметизирующее": ""
+  }
+}
